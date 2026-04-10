@@ -1,7 +1,7 @@
 name: Esteira CI/CD Python baseada em GitHub Actions
 on:
   push:
-    branches: [main]
+    branches: [feature/esteira]
 jobs:
   validate:
     runs-on: ubuntu-latest
